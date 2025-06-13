@@ -12,6 +12,7 @@ Aplicativo de clima desenvolvido com Flutter que exibe as condições meteoroló
 - **[GetIt](https://pub.dev/packages/get_it)**: Injeção de dependências.
 - **[Geolocator](https://pub.dev/packages/geolocator)**: Obtém a localização atual do dispositivo.
 - **[Geocoding](https://pub.dev/packages/geocoding)**: Converte coordenadas em nomes de cidades.
+- **[flutter_dotenv](https://pub.dev/packages/flutter_dotenv)**: Carrega variáveis de ambiente de um arquivo `.env`.
 
 ---
 
@@ -24,3 +25,22 @@ Aplicativo de clima desenvolvido com Flutter que exibe as condições meteoroló
   - Temperatura atual
   - Condição do tempo (ícone e descrição)
   - Nome da cidade
+
+---
+
+## ⚙️ Configuração
+
+1. **Clonar o projeto:**
+
+```bash
+git clone https://github.com/Lauzzener/weather_app.git
+cd weather_app
+```
+
+2. **Criar o arquivo .env com sua chave da API:**
+O projeto depende de uma chave da Weather API para funcionar.
+Há um arquivo .env_example incluso no projeto. Você pode usá-lo como base:
+
+```bash
+WEATHER_API_KEY=coloque_sua_chave_aqui
+```
